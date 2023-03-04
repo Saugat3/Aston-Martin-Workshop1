@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* General Styles */
+
+body {
+    size: 10%;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+    background-color: #22272b;
+}
+.logo img{
+    height: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+/* Header Styles */
+header {
+	background-color: #58453663;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav {
+    height: 50px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 50px;
+  }
+  
+  nav a {
+    color: #fff; /* Change the text color as per your choice */
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Change the background color on hover as per your choice */
+  }
+  
+
+/* Hero Section Styles */
+#hero {
+	background-image: url(jakob-rosen-FY-wCRSV6-4-unsplash.jpg);
+	background-size: cover;
+    height: 500px;
+	background-position: center;
+	color: #ffffff;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero h2 {
+    font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgba(141, 70, 8, 0.3);
+
+}
+
+
+.button {
+	margin-top: 20px;
+    padding-top: 35%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+
+
+/* About Section Styles */
+#about {
+    height: 500px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Cars Section Styles */
+#cars {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#cars li {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#cars h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#cars img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact label {
+	margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+}
+
+#contact button {
+	margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
